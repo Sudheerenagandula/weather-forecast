@@ -1,0 +1,208 @@
+@charset "UTF-8";
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and container styling */
+body {
+    background: linear-gradient(to bottom, #87CEEB, #4682B4);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px 40px;
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Logo styling */
+.container img {
+    width: 100px;
+    margin-bottom: 20px;
+    filter: drop-shadow(5px 5px 5px black);
+}
+
+/* Heading and text styling */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.technologies-used {
+    margin: 20px 0;
+}
+
+.technologies-used h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.technologies-used p {
+    font-size: 1rem;
+    color: #d3d3d3;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+form input {
+    padding: 10px;
+    width: 70%;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s;
+}
+
+form input::placeholder {
+    color: #ddd;
+}
+
+form input:focus {
+    border-color: #FFD700;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+form button {
+    padding: 10px 15px;
+    background: #FFD700;
+    border: none;
+    border-radius: 50%;
+    color: #333;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+form button:hover {
+    background: #FFA500;
+    transform: scale(1.1);
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #d3d3d3;
+}
+
+footer p {
+    margin-top: 10px;
+}
+         body {
+            font-family: Arial, sans-serif;
+            background-color: #282c34;
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .mainContainer {
+            width: 90%;
+            max-width: 600px;
+            background: #333;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .searchInput {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .searchInput input {
+            flex: 1;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px 0 0 5px;
+            outline: none;
+        }
+
+        .searchInput button {
+            padding: 10px;
+            font-size: 1rem;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        .searchInput button:hover {
+            background-color: #0056b3;
+        }
+
+        .weatherDetails {
+            text-align: center;
+        }
+
+        .weatherIcon img {
+            width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .cityDetails,
+        .windDetails {
+            margin-top: 20px;
+        }
+
+        .windDetails {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .humidityBox,
+        .windSpeed {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .humidityBox img,
+        .windSpeed img {
+            width: 40px;
+            height: 40px;
+        }
+
+        .humidity span,
+        .wind span {
+            font-size: 1rem;
+            display: block;
+        }
+
+        .humidity h2,
+        .wind h2 {
+            margin: 0;
+            font-size: 1.5rem;
+        }
